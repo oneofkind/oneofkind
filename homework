@@ -1,0 +1,13 @@
+function login(){
+    let username = document.getElementById("username").value;
+    let pwd = document.getElementById("pwd").value;
+    console.log(username);
+    console.log(pwd);
+    if(username == "123" && pwd== "123"){
+        alert("登录成功");
+    }else{
+        alert("登录失败");
+		document.getElementById("username").value='';
+		document.getElementById("pwd").value='';
+    }
+}
